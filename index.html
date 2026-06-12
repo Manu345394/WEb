@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soy Manu/Manuel</title>
+
+<style>
+body{
+    margin:0;
+    min-height:100vh;
+    background:#00154D;
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+.contenedor{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    text-align:center;
+    font-size:3.5rem;
+    margin-bottom:40px;
+}
+
+.texto-principal{
+    text-align:center;
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+a{
+    color:#4da6ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Sección ropa */
+
+.ropa-section{
+    margin-top:60px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    border-radius:15px;
+}
+
+.ropa-section img{
+    width:220px;
+    border-radius:12px;
+    border:2px solid rgba(255,255,255,0.2);
+}
+
+.ropa-texto{
+    flex:1;
+    text-align:left;
+}
+
+.ropa-texto h2{
+    margin-top:0;
+    font-size:2rem;
+}
+
+/* Sección programación */
+
+.dev-section{
+    margin-top:40px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    border-radius:15px;
+}
+
+.dev-texto{
+    flex:1;
+    text-align:left;
+}
+
+.dev-texto h2{
+    margin-top:0;
+    font-size:2rem;
+}
+
+.dev-section img{
+    width:320px;
+    border-radius:12px;
+    border:2px solid rgba(255,255,255,0.2);
+}
+
+p{
+    line-height:1.7;
+}
+
+@media(max-width:700px){
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    .ropa-section,
+    .dev-section{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .ropa-texto,
+    .dev-texto{
+        text-align:center;
+    }
+
+    .ropa-section img{
+        width:180px;
+    }
+
+    .dev-section img{
+        width:100%;
+        max-width:320px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+
+<h1>Soy Manu/Manuel</h1>
+
+<div class="texto-principal">
+
+<p>
+¡Hola! Soy Mateo.
+<br><br>
+
+Me dedico a crear ropa personalizada para FiveM.
+Dependiendo de lo que pidas, el trabajo puede ser gratuito
+o tener un costo, según la dificultad y el tiempo que requiera.
+
+<br><br>
+
+Además, soy programador de Discord y desarrollo bots personalizados,
+sistemas, configuraciones y otros servicios relacionados.
+
+<br><br>
+
+Si te interesa alguno de mis trabajos o quieres más información,
+únete a mi servidor de Discord:
+
+<br><br>
+
+<a href="https://discord.gg/c5zr89AR" target="_blank">
+https://discord.gg/c5zr89AR
+</a>
+
+<br><br>
+
+¡Te espero!
+
+</p>
+
+</div>
+
+<!-- ROPA -->
+
+<div class="ropa-section">
+
+<img src="ropa.png" alt="Diseños de ropa">
+
+<div class="ropa-texto">
+
+<h2>Diseños de ropa personalizada</h2>
+
+<p>
+Estos son diseños míos de ropa personalizada creados por mí.
+Enseño a hacer ropa personalizada en un plazo de 1 a 2 días,
+además de dar consejos, ayuda y herramientas para que puedas
+aprender y crear tus propios diseños para FiveM.
+</p>
+
+</div>
+
+</div>
+
+<!-- PROGRAMACIÓN -->
+
+<div class="dev-section">
+
+<div class="dev-texto">
+
+<h2>Desarrollo para FiveM</h2>
+
+<p>
+Sé crear scripts desde cero para servidores de FiveM,
+sistemas personalizados, configuraciones avanzadas y
+muchas otras funcionalidades.
+
+<br><br>
+
+También creo servidores completos de FiveM y cuento
+con experiencia trabajando como developer en distintos
+proyectos. Desarrollo recursos optimizados y adaptados
+a las necesidades de cada comunidad.
+
+<br><br>
+
+También realizo bots de Discord, integraciones,
+sistemas de administración, logs, tiendas y
+todo tipo de automatizaciones.
+</p>
+
+</div>
+
+<img src="scrip.png" alt="Programación FiveM">
+
+</div>
+
+</div>
+
+</body>
+</html>
